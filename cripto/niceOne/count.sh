@@ -1,0 +1,1 @@
+wc -c max_pass.txt
