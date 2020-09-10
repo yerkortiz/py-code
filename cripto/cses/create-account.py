@@ -2,9 +2,9 @@ import os
 from selenium import webdriver
 from getpass import getpass
 
-username = input('Ingrese username\n')
+username = input('Ingrese nick\n')
 password = input('Ingrese password\n')
-email = input('Ingrese email')
+email = input('Ingrese email\n')
 current_directory = os.getcwd()
 driver = webdriver.Chrome(current_directory + '/chromedriver')
 driver.get('https://cses.fi/register/')
