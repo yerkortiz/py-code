@@ -2,10 +2,8 @@ import os
 from selenium import webdriver
 from getpass import getpass
 #nota: el chromedriver en el directorio es para osx, no usar si se usa windows o linux
-username = input('Ingrese email')
-password = input('Ingrese una password incorrecta')
-#username = 'yerko.ortizm@mail.udp.cl'
-#password = 'pass_incorrecta'
+username = input('Ingrese email\n')
+password = input('Ingrese una password incorrecta\n')
 
 current_directory = os.getcwd()
 driver = webdriver.Chrome(current_directory + '/chromedriver')

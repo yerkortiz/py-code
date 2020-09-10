@@ -2,9 +2,9 @@ import os
 from selenium import webdriver
 from getpass import getpass
 
-username = input('ingrese mail')
-password = getpass('ingrese password')
-new_password = getpass('ingrese nueva password')
+username = input('ingrese mail\n')
+password = getpass('ingrese password\n')
+new_password = getpass('ingrese nueva password\n')
 
 current_directory = os.getcwd()
 driver = webdriver.Chrome(current_directory + '/chromedriver')

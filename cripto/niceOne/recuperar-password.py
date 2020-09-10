@@ -2,7 +2,7 @@ import os
 from selenium import webdriver
 from getpass import getpass
 
-username = input('ingrese mail')
+username = input('ingrese mail\n')
 
 current_directory = os.getcwd()
 driver = webdriver.Chrome(current_directory + '/chromedriver')

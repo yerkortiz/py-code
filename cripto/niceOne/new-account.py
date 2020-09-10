@@ -3,11 +3,11 @@ from selenium import webdriver
 from getpass import getpass
 #nota: el chromedriver en el directorio es para osx, no usar si se prueba desde windows o linux
 
-gender = int(input('ingrese 0 si se identifica como sr, 1 si se identifica como sra, si se identifica como otra cosa fune a la página por poca variedad'))
-nombre = input('ingrese nombre')
-apellido = input('ingrese apellido')
-username = input('ingrese mail')
-password = getpass('ingrese password')
+gender = int(input('ingrese 0 si se identifica como sr, 1 si se identifica como sra\n'))
+nombre = input('ingrese nombre\n')
+apellido = input('ingrese apellido\n')
+username = input('ingrese mail\n')
+password = getpass('ingrese password\n')
 
 
 current_directory = os.getcwd()
