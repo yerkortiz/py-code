@@ -1,0 +1,17 @@
+{
+  "name": "t3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-gost": "^1.0.14",
+    "gost-crypto": "^1.1.4",
+    "node-gost-crypto": "^1.0.2"
+  }
+}
