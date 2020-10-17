@@ -46,6 +46,5 @@
     const b_key = hex2buf(toHex(key));
     const b_ct = hex2buf(ct);
     const dt = decryptECB(b_key, b_ct);
-    const dt = b_ct
     aux[0].innerHTML = 'mensaje cifrado: ' + buf2hex(dt);
 })();
