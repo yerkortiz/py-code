@@ -13,9 +13,9 @@ print(hexenc(pt))
 print(hexenc(ct))
 #print(hexenc(dt))
 html ="""
-<p>Este sitio contiene un mensaje secreto</p>
+<p>Mensaje secreto</p>
 <div class='kuznyechik' id='"""+hexenc(ct)+"""'></div>
 """
-archivo = open("index.html","w")
-archivo.write(html)
-archivo.close()
+file = open("index.html","w")
+file.write(html)
+file.close()
